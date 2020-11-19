@@ -13,6 +13,7 @@
 		18F5C2232546A11300C7B952 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18F5C2212546A11300C7B952 /* Main.storyboard */; };
 		18F5C2252546A11700C7B952 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18F5C2242546A11700C7B952 /* Assets.xcassets */; };
 		18F5C2282546A11700C7B952 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18F5C2262546A11700C7B952 /* LaunchScreen.storyboard */; };
+		18F5C2302547CEAA00C7B952 /* alarm_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 18F5C22F2547CEAA00C7B952 /* alarm_sound.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		18F5C2242546A11700C7B952 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18F5C2272546A11700C7B952 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18F5C2292546A11700C7B952 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18F5C22F2547CEAA00C7B952 /* alarm_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = alarm_sound.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		18F5C21A2546A11300C7B952 /* Egg Timer */ = {
 			isa = PBXGroup;
 			children = (
+				18F5C22F2547CEAA00C7B952 /* alarm_sound.mp3 */,
 				18F5C21B2546A11300C7B952 /* AppDelegate.swift */,
 				18F5C21D2546A11300C7B952 /* SceneDelegate.swift */,
 				18F5C21F2546A11300C7B952 /* ViewController.swift */,
@@ -127,6 +130,7 @@
 			files = (
 				18F5C2282546A11700C7B952 /* LaunchScreen.storyboard in Resources */,
 				18F5C2252546A11700C7B952 /* Assets.xcassets in Resources */,
+				18F5C2302547CEAA00C7B952 /* alarm_sound.mp3 in Resources */,
 				18F5C2232546A11300C7B952 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
